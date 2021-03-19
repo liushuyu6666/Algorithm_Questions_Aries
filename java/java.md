@@ -96,3 +96,53 @@
 2. Arrays.sort()
 3. Arrays.asList(a, b, c): don't need to use add
 4. convert set to array: new ArrayList<>(set)
+
+
+
+# Data Structure
+
+## `ArrayList`
+
+- can be printed directly, even if it is a nested `List`
+
+  ```java
+  System.out.println(l);
+  ```
+
+  
+
+## `HashMap`
+
+- Create a dictionary
+
+  ```java
+  HashMap<Character, Integer> prime = new HashMap<>();
+  prime.put('a', 2);
+  prime.put('b', 3);
+  prime.put('c', 5);
+  ```
+
+  
+
+- create a elastic `List` or dynamic `List` if you want `[["hello"], ["good morning", "good afternoon", "good evening", "good night"]]`
+
+  ```java
+  HashMap<Character, List<String>> dict = new HashMap<>();
+  List<String> l = new ArrayList()<>;
+  l.add("good morning");
+  l.add("good afternoon");
+  dict.put('g', l);
+  return new ArrayList<>(dict.values());
+  ```
+
+  
+
+## `String[]`
+
+- declare
+
+  ```java
+  String[] strs = {"eat", "dog", "dot"};
+  ```
+
+  
