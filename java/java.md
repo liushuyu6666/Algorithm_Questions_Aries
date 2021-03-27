@@ -1,8 +1,4 @@
-#### java data structure used
-1.  HashSet: Contain_Duplicate.java
 
-2.  StringBuilder: Count_and_say.java
-     - toString()
 
 #### algorithm improvements
 1. First_unique_character_in_string:
@@ -97,7 +93,17 @@
 3. Arrays.asList(a, b, c): don't need to use add
 4. convert set to array: new ArrayList<>(set)
 
+# Learn Java in C
 
+## `new <dataType>`
+
+new seems like `malloc(sizeof(type))`
+
+```java
+List lst = new ArrayList<>(); // lst = malloc(sizeof(ArrayList)), now a new object/structure has been allocated in the memory.
+```
+
+- you can't use `lst = null` to empty this object.
 
 # Data Structure
 
@@ -109,7 +115,28 @@
   System.out.println(l);
   ```
 
-  
+
+
+
+## Nested List
+
+### pitfall
+
+Don't assign in this way to "empty" the inner array list: `inner = null;`
+
+```java
+List<Integer> inner = new ArrayList<>();
+List<List<Integer>> outer = new ArrayList<>();
+
+while(n>0){
+    n--; // ... processing
+    inner.add(n); // assembled inner
+    outer.add(inner);
+    inner = new ArrayList<>() // don't use inner = null to reset inner, in that way inner will be a null not an ArrayList; inner could be regarded as a pointer, new ArrayList<>() just like malloc(sizeof(ArrayList));
+}
+```
+
+
 
 ## `HashMap`
 
