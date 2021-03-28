@@ -4,6 +4,14 @@
 
 An **iterative** function is one that loops to repeat some part of the code, and a **recursive** function is one that calls itself again to repeat the code.
 
+# Data Structure
+
+## Binary Tree
+
+### traversal
+
+- [Inorder, Preorder, Postorder](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
+
 # General Algorithm
 
 ## Unique Prime Multiplication
@@ -126,3 +134,20 @@ Utilize `Stack` to store the Tree Node alone the left path or right path, and po
 | leetcode | 103. Binary Tree Zigzag Level Order Traversal |
 |          |                                               |
 
+## Reconstruct Tree
+
+### Intro
+
+Give two array, `preorder` and `inorder`, reconstruct the tree.
+
+### method
+
+Traverse `preorder` from the left to the right, the first element is the root.
+
+There are several hints
+
+- Find the target element in the `inorder` array, all elements locates on the left side of the target element in the `inorder` array will also sit on the left side of the target element in the tree; the same as right side.
+
+- we have a `leftBound` which indicates the left bound of the `inorder`
+
+- `curr`  will be determined according to whether is has left wing or not. If the target element in the `inorder` has left wing (it sits on the right hand side of the `leftBound`), we will push it into the `stack`, and move one element forward in the `preorder` list, this element in the `preorder` must be the `curr`'s left child; If not, it will be tricky, check the code.
