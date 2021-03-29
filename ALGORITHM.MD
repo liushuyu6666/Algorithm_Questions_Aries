@@ -11,7 +11,11 @@ An **iterative** function is one that loops to repeat some part of the code, and
 ### traversal
 
 - [Inorder, Preorder, Postorder](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
-- [perfect binary tree](https://en.wikipedia.org/wiki/Binary_tree#:~:text=A%20perfect%20binary%20tree%20is,one%20mother%20and%20one%20father).)
+- [perfect binary tree](https://en.wikipedia.org/wiki/Binary_tree#:~:text=A%20perfect%20binary%20tree%20is,one%20mother%20and%20one%20father).
+
+### type
+
+- [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree)
 
 # General Algorithm
 
