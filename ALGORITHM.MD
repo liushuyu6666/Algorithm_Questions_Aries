@@ -17,6 +17,12 @@ An **iterative** function is one that loops to repeat some part of the code, and
 
 - [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree)
 
+## Graph
+
+### traversal
+
+infect algorithm
+
 # General Algorithm
 
 ## Unique Prime Multiplication
