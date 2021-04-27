@@ -1,3 +1,5 @@
+package MoveInArray;
+
 public class Move_zeros {
     public void moveZeros(int[] nums){
         int j = -1;

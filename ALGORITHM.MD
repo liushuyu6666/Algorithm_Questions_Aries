@@ -1,6 +1,52 @@
 [TOC]
 
-# Basic Knowledge
+# Questions List
+
+| rank | web name | question name                           | algorithm                 | category                                  |
+| ---- | -------- | --------------------------------------- | ------------------------- | ----------------------------------------- |
+| 1    | leetcode | 26. Remove Duplicates from Sorted Array | two pointers              | move in array                             |
+| 0    | leetcode | 122. Best Time to Buy and Sell Stock II | no                        | no                                        |
+| 3    | leetcode | 189. Rotate Array                       | Josephus Problem          | move in array / rotate in array           |
+| 0    | leetcode | 217. Contains Duplicate                 | no                        | no                                        |
+| 1    | leetcode | 136. Single Number                      | math                      | duplicate s in array                      |
+|      | leetcode | 66. Plus One                            | no                        | no                                        |
+| 0    | leetcode | 350. Intersection of Two Arrays II      | no                        | no                                        |
+| 1    | leetcode | 283. Move Zeroes                        | two pointers              | move in array                             |
+| 1    | leetcode | 1. Two Sum                              | HashMap to remember array | two or more elements interaction in array |
+| 2    | leetcode | 48. Rotate Image                        | rotate                    | rotate in 2D                              |
+| 1    | leetcode | 36. Valid Sudoku                        | nested data structure     | 2D                                        |
+| 0    | leetcode | 344. Reverse String                     | no                        | no                                        |
+| 0    | leetcode | 7. Reverse Integer                      | no                        | no                                        |
+| 1    | leetcode | 387. First Unique Character in a String | alphabet array            | alphabet array                            |
+| 0    | leetcode | 242. Valid Anagram                      | no                        | no                                        |
+| 0    | leetcode | 125. Valid Palindrome                   | no                        | no                                        |
+| 0    | leetcode | 8. String to Integer (atoi)             | no                        | no                                        |
+| 0    | leetcode | 38. Count and Say                       | no                        | no                                        |
+| 1    | leetcode | 14. Longest Common Prefix               | predefine answer          | predefine answer                          |
+| 1    | leetcode | 21. Merge Two Sorted Lists              | invisible head node       | linked list                               |
+| 0    | leetcode | 234. Palindrome Linked List             | slow-quick pointers       | linked list                               |
+| 0    | leetcode | 141. Linked List Cycle                  | slow-quick pointers       | linked list                               |
+| 0    | leetcode | 19. Remove Nth Node From End of List    | slow-quick pointers       | linked list                               |
+| 0    | leetcode | 237. Delete Node in a Linked List       | no                        | linked list                               |
+| 3    | leetcode | 204. Count Prime                        | Eratosthenes              | Prime                                     |
+
+
+
+# Review List
+
+| snippet      | relative questions | date |
+| ------------ | ------------------ | ---- |
+| rotate array | 189. Rotate Array  |      |
+| Eratosthenes | 204. Count Prime   |      |
+|              |                    |      |
+
+# Algorithm
+
+## Josephus Problem
+
+
+
+# Relative Knowledge
 
 An **iterative** function is one that loops to repeat some part of the code, and a **recursive** function is one that calls itself again to repeat the code.
 

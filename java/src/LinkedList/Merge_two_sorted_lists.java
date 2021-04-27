@@ -1,4 +1,4 @@
-import com.sun.scenario.effect.Merge;
+package LinkedList;
 
 public class Merge_two_sorted_lists {
     public ListNode mergeTwoLists(ListNode h1, ListNode h2){

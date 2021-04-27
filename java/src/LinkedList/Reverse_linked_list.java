@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class Reverse_linked_list {
     public ListNode reverseList(ListNode head){
         if(head == null) return null;
