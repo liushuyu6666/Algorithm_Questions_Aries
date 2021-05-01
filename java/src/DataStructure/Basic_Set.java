@@ -1,8 +1,6 @@
 package DataStructure;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Basic_Set {
     public static void main(String args[]){
@@ -39,5 +37,9 @@ public class Basic_Set {
 
         // 6, contains
         System.out.println("if contains 1: " + set1.contains(1));
+
+        // 7, convert to list
+        List<Integer> list = new ArrayList<>(set1);
+        System.out.println(list);
     }
 }
