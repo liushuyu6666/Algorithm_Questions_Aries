@@ -53,41 +53,17 @@
 
 ## Algorithm List
 
-| algorithm        | relative questions                    | code                                               | explanation                              | description                                                  |
-| ---------------- | ------------------------------------- | -------------------------------------------------- | ---------------------------------------- | ------------------------------------------------------------ |
-| Josephus Problem | 189. Rotate Array                     | [java version](/java/src/Rotate/Rotate_Array.java) | [java version](/java/src/Prime/Prime.MD) | 类似于十一抽杀律 decimation, which is used to rotate continuous elements in an array. |
-| Eratosthenes     | 204. Count Prime                      | [java version](/java/src/Prime/Eratosthenes.java)  |                                          | count the number of prime before a certain value             |
-| Möbius band      | 160. Intersection of Two Linked Lists |                                                    |                                          |                                                              |
-
-### Mobius Band
-
-#### explanation
-
-<img src="img/mobius_band.jpg" alt="mobius band" style="zoom:67%;" />
-
-we need to find the first intersection node. we first form a Mobius band, then set lower pointer at 5 and upper pointer at 1. Walk forwards along the arrows, when upper pointer reach left 8, lower pointer must be at right 8, where they meet with each other. This is because the interval between lower pointer and upper pointer is fixed.
+| algorithm           | relative questions                    | code                                                         | explanation                                    | description                                                  |
+| ------------------- | ------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------------------ |
+| Josephus Problem    | 189. Rotate Array                     | [java version](/java/src/Rotate/Rotate_Array.java)           | [java version](/java/src/Prime/Prime.MD)       | 类似于十一抽杀律 decimation, which is used to rotate continuous elements in an array. |
+| Eratosthenes        | 204. Count Prime                      | [java version](/java/src/Prime/Eratosthenes.java)            |                                                | count the number of prime before a certain value             |
+| Möbius band         | 160. Intersection of Two Linked Lists | [java version](/java/src/MobiusBand/Intersection_of_Two_Linked_List.java) | [java version](/java/src/MobiusBand/Mobius.ms) |                                                              |
+| bit manipulation    | 461. Hamming Distance                 |                                                              |                                                |                                                              |
+| prime factorization | 49. Group Anagrams                    |                                                              |                                                |                                                              |
+| Tree                |                                       |                                                              |                                                |                                                              |
+| Dichotomy           |                                       |                                                              |                                                |                                                              |
 
 
-
-### Binary Tree
-
-#### DFS
-
-#### in order traverse
-
-#### pre order traverse
-
-#### post order traverse
-
-#### maximum depth of binary tree
-
-#### binary search tree
-
-#### symmetric tree
-
-
-
-### Dichotomy 
 
 
 
