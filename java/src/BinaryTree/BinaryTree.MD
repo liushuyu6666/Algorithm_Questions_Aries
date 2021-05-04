@@ -59,3 +59,14 @@ The same as pre-order, three steps:
 #### post-order and in-order
 
 [code](Construct_Binary_Tree_from_Postorder_and_Inorder_Traversal.java)
+
+# Binary Search Tree
+
+## successor
+
+<img src="img/Inorder_successor_in_BST.jpg" style="zoom:50%;" />
+
+the successor of a certain node is either in his parents or in the descending of his right child.
+
+[code](Inorder_successor_in_BST.java)
+
