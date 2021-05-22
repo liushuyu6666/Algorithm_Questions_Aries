@@ -9,4 +9,9 @@ public class Sum_of_Two_Integers {
         }
         return curr;
     }
+
+    public static void main(String args[]){
+        Sum_of_Two_Integers sum_of_two_integers = new Sum_of_Two_Integers();
+        System.out.println(sum_of_two_integers.getSum(3, 17));
+    }
 }
